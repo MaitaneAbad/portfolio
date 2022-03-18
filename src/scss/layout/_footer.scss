@@ -1,0 +1,48 @@
+.footer__container {
+	display: flex;
+	align-items: center;
+	position: relative;
+	bottom: 0;
+	justify-content: center;
+	height: 10vh;
+	&--copyright {
+		font-size: $fontSize1024;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		line-height: 30px;
+		padding: 20px 0;
+		@media (min-width: 768px) {
+			flex-direction: row;
+			font-size: $fontSizeTitleName;
+		}
+		&__name {
+			text-transform: capitalize;
+			@media (min-width: 768px) {
+				padding-left: 10px;
+			}
+		}
+	}
+	&--links {
+		display: flex;
+		font-size: 18px;
+		align-items: center;
+		justify-content: center;
+		&__icon--arrow {
+			font-size: 25px;
+			margin: 10px;
+			color: rgb(102, 100, 100);
+			position: fixed;
+			right: 10px;
+			bottom: 1px;
+			border-radius: 20px;
+			transition: all linear 0.3s;
+			&:hover {
+				box-shadow: 0 4px 8px 0 rgba(10, 10, 10, 0.445);
+			}
+			@media (min-width: 768px) {
+				font-size: 40px;
+			}
+		}
+	}
+}

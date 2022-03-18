@@ -1,0 +1,22 @@
+.main__section--contact {
+	padding: 50px 0 75px 0;
+	width: 100%;
+	&__list {
+		display: flex;
+		justify-content: space-evenly;
+		max-width: 800px;
+		margin: 0 auto;
+		&--icon {
+			font-size: 25px;
+			margin: 0 5px;
+			color: rgb(102, 100, 100);
+			transition: all linear 0.2s;
+			@media (min-width: 768px) {
+				font-size: 40px;
+			}
+			&:hover {
+				color: #f8aea3;
+			}
+		}
+	}
+}
