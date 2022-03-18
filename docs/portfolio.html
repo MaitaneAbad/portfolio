@@ -33,7 +33,7 @@
   <body>  <body class="body">
      <header id="header" class="header">
      	<section>
-     		<nav id="menu">
+     		<nav>
      			<ul class="header__nav">
      				<li class="header__nav--list">
      					<a
@@ -47,7 +47,7 @@
      					<a
      						class="header__nav--list__link"
      						title="Proyectos"
-     						href="./portfolio.html#section-proyects"
+     						href="./portfolio.html#section-projects"
      						>Proyectos</a
      					>
      				</li>
@@ -79,10 +79,11 @@
  
      <main>
          <div>
-         <article class="main__article"><a class="main__article--link"
+         <article class="main__article" id="section-aboutUs">
+           <a class="main__article--link"
              href="https://drive.google.com/file/d/1qQ0_7vGb6efeUt-xKIx-TAT7Yc7QI7K0/view?usp=sharing" target="_blank"
              rel="noreferrer">Descarga mi CV</a></article>
-         <section class="main__section" id="section-aboutUs">
+         <section class="main__section" >
            <h1 class="main__section--title">Maitane Abad Conde</h1>
            <div class="main__section--containerAbout">
              <div class="main__section--containerAbout__paragraph">
@@ -104,6 +105,7 @@
            </div>
        </section>
        </div>
+       <section id="section-projects">
        <div id="carouselExampleDark" class="carousel carousel-dark slide main__section" data-bs-ride="carousel">
          <h2 class="main__section--title">Proyectos</h2>
      			<div class="carousel-indicators">
@@ -321,6 +323,7 @@
      				<span class="carousel-control-next-icon" aria-hidden="true"></span>
      			</button>
      	</div>
+     </section>
        <div>
          <section class="main__section" id="section-technologies">
            <h2 class="main__section--title">Tecnologías</h2>
