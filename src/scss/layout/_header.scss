@@ -7,17 +7,27 @@
 		justify-content: center;
 		align-items: center;
 		@media (min-width: 550px) {
+			height: 90px;
 			padding: 10px;
 			flex-direction: row;
-			margin-top: 10px;
 			font-size: 12px;
+			position: fixed;
+			right: 0;
+			left: 0;
+			top: 0;
+			background: linear-gradient(
+				180deg,
+				rgba(255, 255, 255, 1) 0%,
+				rgba(255, 255, 255, 0) 100%
+			);
+			z-index: 2;
 		}
 		@media (min-width: 1024px) {
 			font-size: $fontSizeWork;
 		}
 		&--list {
 			margin: 3.5px 6px;
-			background: #c9ebc94b;
+			background: #c9ebc9;
 			padding: 5px;
 			border-radius: 7px;
 			transition: all linear 0.2s;

@@ -1,75 +1,74 @@
 .bodyLanding {
-  background-image: url(../images/acuarela.jpg);
-  min-height: 100vh;
-  min-width: 100vw;
-  font-family: 'Nunito', sans-serif;
-  background-size: cover;
+	background-image: url(../images/acuarela.jpg);
+	min-height: 100vh;
+	font-family: 'Nunito', sans-serif;
+	background-size: cover;
 }
 
 .landing {
-  &__hero {
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	&__hero {
+		height: 90vh;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 
-    @media (min-width: 768px) {
-      height: 90vh;
-      justify-content: center;
-    }
-  }
-  &__paragraph {
-    margin: 20px;
-    text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
-    line-height: 1.5em;
-    margin: 30px;
-    @media (min-width: 768px) {
-      width: 75vw;
-      font-size: 2vw;
-      width: 42ch;
-    }
-  }
-  &__button {
-    height: 42px;
-    width: 129px;
-    font-size: 18px;
-    font-weight: 600;
-    color: rgb(12, 12, 12);
-    cursor: pointer;
-    text-align: center;
-    border: none;
-    background-size: 300% 100%;
-    border-radius: 50px;
-    transition: all 0.4s ease-in-out;
-    margin-bottom: 60px;
-    background-image: linear-gradient(
-      to left,
-      #f8aea3,
-      #fbebdd,
-      #b8d7d1,
-      #e5ece5
-    );
-    box-shadow: 0 4px 15px 0 rgba(240, 208, 195, 0.75);
+		@media (min-width: 768px) {
+			height: 90vh;
+			justify-content: center;
+		}
+	}
+	&__paragraph {
+		margin: 20px;
+		text-align: center;
+		font-size: 18px;
+		text-transform: uppercase;
+		line-height: 1.5em;
+		margin: 30px;
+		@media (min-width: 768px) {
+			width: 75vw;
+			font-size: 2vw;
+			width: 42ch;
+		}
+	}
+	&__button {
+		height: 42px;
+		width: 129px;
+		font-size: 18px;
+		font-weight: 600;
+		color: rgb(12, 12, 12);
+		cursor: pointer;
+		text-align: center;
+		border: none;
+		background-size: 300% 100%;
+		border-radius: 50px;
+		transition: all 0.4s ease-in-out;
+		margin-bottom: 60px;
+		background-image: linear-gradient(
+			to left,
+			#f8aea3,
+			#fbebdd,
+			#b8d7d1,
+			#e5ece5
+		);
+		box-shadow: 0 4px 15px 0 rgba(240, 208, 195, 0.75);
 
-    &:hover {
-      background-position: 100% 0;
-      transition: all 0.4s ease-in-out;
-    }
+		&:hover {
+			background-position: 100% 0;
+			transition: all 0.4s ease-in-out;
+		}
 
-    &:focus {
-      outline: none;
-    }
-    @media (min-width: 768px) {
-      width: 15vw;
-      font-size: 20px;
-      height: 50px;
-    }
-    &--link {
-      padding: 10px;
-    }
-  }
+		&:focus {
+			outline: none;
+		}
+		@media (min-width: 768px) {
+			width: 15vw;
+			font-size: 20px;
+			height: 50px;
+		}
+		&--link {
+			padding: 10px;
+		}
+	}
 }
