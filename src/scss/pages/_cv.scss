@@ -45,11 +45,11 @@
 		padding-top: 50px;
 		display: flex;
 		justify-content: center;
-		color: $icon;
 		min-width: 100%;
 		font-size: 35px;
 		&__icon {
 			padding: 5px 10px;
+			color: $icon;
 		}
 	}
 }
@@ -120,12 +120,14 @@
 	justify-content: center;
 	margin-bottom: 50px;
 	&--title {
-		margin: 100px 0 20px 0;
+		margin: 50px 0 40px 0;
 		text-align: center;
-		font-size: 30px;
+		font-size: 40px;
 		font-weight: 600;
+		color: #f8a194;
+		text-transform: capitalize;
 		text-shadow: 2px 7px 5px rgba(26, 23, 23, 0.3),
-			0px -4px 10px rgba(77, 76, 76, 0.3);
+			-1px -1px 10px rgba(77, 76, 76, 0.3);
 	}
 	&--container {
 		@media (min-width: 768px) {
