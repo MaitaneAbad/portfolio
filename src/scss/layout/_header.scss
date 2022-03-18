@@ -1,44 +1,21 @@
 .header {
 	text-transform: uppercase;
 	text-align: center;
-	.header__name {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin: 50px 0 20px 0;
-		font-weight: 800;
-		color: #fc8e7d;
-		font-size: 22px;
-		color: #fff;
-		line-height: 40px;
-		letter-spacing: 5px;
-		text-shadow: 3px 3px 20px #fc8e7d, -2px 1px 30px #fc8e7d;
-		@media (min-width: 375px) {
-			font-size: 22px;
-			padding: 0 45px 0 45px;
-		}
-		@media (min-width: 550px) {
-			font-size: 32px;
-			padding: 0 45px 0 45px;
-		}
-	}
-	.header__nav {
+	&__nav {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		@media (min-width: 550px) {
 			padding: 10px;
-			display: flex;
 			flex-direction: row;
-			align-items: center;
 			margin-top: 10px;
 			font-size: 12px;
 		}
 		@media (min-width: 1024px) {
 			font-size: $fontSizeWork;
 		}
-		.header__nav--list {
+		&--list {
 			margin: 3.5px 6px;
 			background: #c9ebc94b;
 			padding: 5px;
