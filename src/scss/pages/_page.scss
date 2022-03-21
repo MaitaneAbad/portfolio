@@ -6,12 +6,16 @@ body {
 .main__article {
 	display: flex;
 	justify-content: center;
-	margin: 100px 0 0 0;
+	margin-top: 50px;
 	font-size: $fontSizeNumber;
 	padding-bottom: 15px;
 	border-bottom: black 1px solid;
+	@media (min-width: 550px) {
+		font-size: 12px;
+		margin-top: 100px;
+	}
 	@media (min-width: 768px) {
-		font-size: $fontSize768;
+		font-size: 16px;
 	}
 	&--link {
 		padding: 7px;
