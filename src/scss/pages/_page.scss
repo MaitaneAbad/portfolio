@@ -105,9 +105,14 @@ body {
 		padding: 50px 0;
 		&__img {
 			width: 50vw;
-			min-height: 60vh;
-			max-height: 60vh;
+			min-height: 30vh;
+			max-height: 30vh;
 			margin: 0 auto;
+			@media (min-width: 992px) {
+				width: 50vw;
+				min-height: 60vh;
+				max-height: 60vh;
+			}
 		}
 		&__container {
 			padding: 50px 0;
@@ -143,7 +148,12 @@ body {
 			}
 		}
 	}
-
+	&--button {
+		top: 115px;
+		@media (min-width: 768px) {
+			top: 0;
+		}
+	}
 	&--icons {
 		display: block;
 		font-size: 40px;
